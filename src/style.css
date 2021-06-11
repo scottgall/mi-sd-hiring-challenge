@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#errorMsg {
+  color: rgb(219, 82, 82);
+  display: none;
+}
+
+#forecast h1 {
+  text-transform: uppercase;
+  color: rgb(141, 140, 140);
+  font-size: 25px;
+  font-weight: 10;
+}
+
+#cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 5px;
+}
+
+.day {
+  background: rgb(107, 156, 189);
+  color: white;
+  text-align: start;
+  padding: 5px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  align-self: start;
+}
+
+.innerCard {
+  display: flex;
+  padding: 10px 20px 0px 5px;
+}
+
+.innerWeather {
+  margin-right: 20px;
+  margin-left: 10px;
+  text-align: start;
+}
+
+.innerWeather p {
+  margin-bottom: 10px;
+}
